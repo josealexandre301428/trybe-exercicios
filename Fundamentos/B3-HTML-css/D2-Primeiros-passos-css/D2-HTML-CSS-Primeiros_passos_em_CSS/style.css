@@ -1,0 +1,29 @@
+
+        h1{
+            font-family: sans-serif;
+            color: blueviolet;
+        }
+
+        p{
+            font-weight: 600;
+            font-size: 3em;
+            font-style: italic;
+
+        }
+
+
+        body{
+            font-size: 16px;
+            background-color: rgb(080, 090, 090);
+
+        }
+
+        .list-colors{
+            line-height: 20px;
+            text-align: center;
+            text-decoration: cornflowerblue;
+        }
+        #item-1{background-color: yellow;}
+        #item-2{background-color: red;}
+        #item-3{background-color: saddlebrown;}
+  
