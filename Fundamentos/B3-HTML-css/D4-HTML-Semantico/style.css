@@ -1,0 +1,64 @@
+body{
+    font-family:monospace;
+    margin: 0px;
+}
+.header-title{
+    background-color: #A3CDD9 ;
+    padding: 30px;
+    margin: 0;
+    color: #506AD4 ;
+
+}
+.nav-links{
+    background-color:#506AD4 ;
+    padding: 20px;
+    margin: 0px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #FFFCE6;
+}
+.nav-links li{
+    display: inline-block;
+    margin-left: 20px;
+    
+    
+}.nav-links li:hover{
+    font-weight: 900;
+}
+
+.facts{
+    margin: 50px;
+    background-color: #C2B8AD;
+}
+
+.facts-title{
+    text-align: center;
+    padding: 20px;
+    background-color:#F2CC39 ;
+}
+.facts-content1{
+    display: block;
+    
+    
+}
+.facts-content1 p{
+    margin: 0px;
+    padding: 40px;
+}
+.fast-facts{
+    text-align: center;
+    padding: 20px;
+    background-color: #F2CC39;
+    display: block;
+    margin-left: 20px;
+    max-width: 60%;
+    align-items: center;
+}
+.fast-content{
+    line-height: 25px;
+    margin: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
