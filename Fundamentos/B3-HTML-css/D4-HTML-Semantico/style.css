@@ -71,7 +71,7 @@ body{
 .vision, .life-cicle{
     margin: 10px;
 }
-.vision-title, .life-title{
+.vision-title, .life-title, .more-title{
     display: block;
     text-align: center;
     padding: 20px;
@@ -144,6 +144,12 @@ body{
 
     text-align: center;
 }
-.list-references li a:hover{
+.list-references li a, .life-cicle p a:hover{
     font-weight: 900;
+}
+
+.life-cicle p a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }
