@@ -2,6 +2,7 @@ body{
     font-family:monospace;
     margin: 0px;
 }
+
 .header-title{
     background-color: #F2CC39 ;
     padding: 30px;
@@ -27,9 +28,11 @@ body{
     font-weight: 900;
 }
 
+
 .facts{
     margin: 50px;
     background-color: #C2B8AD;
+    border-radius: 15px;
 }
 
 .facts-title{
@@ -73,6 +76,7 @@ body{
     font-size: 20px;
     border-radius: 15px;
     line-height: 30px;
+    margin-bottom: 30px;
 }
     
     
@@ -113,6 +117,8 @@ body{
     font-size: 20px;
     border-radius: 15px;
     line-height: 30px;
+    margin-bottom: 50px;
+    display: inline-block;
 }
 .about-title{
     text-align: center;
@@ -120,6 +126,7 @@ body{
     background-color:#F2CC39 ;
     border: 2px solid black;
     font-size: x-large;
+    margin: 0 3%;
 }
 .principal{
     max-width: 80%;
