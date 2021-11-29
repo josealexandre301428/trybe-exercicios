@@ -37,3 +37,14 @@ for ( let index = 0; index < groceryList.length; index += 1){
 
 
 /* exercicios de FOR concluidos */
+
+
+
+/*let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (let string of names){
+  console.log(string);
+}*/
+
+
+/* exercicios de for/os concluido */
