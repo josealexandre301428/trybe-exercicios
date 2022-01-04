@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fixação</title>
+</head>
+<body>
+  <header id="title">
+    <h1>Cadastre seu curriculo</h1>
+  </header>
+  <fieldset>
+    <div class="line-content">
+      <label for="name">Nome
+        <input maxlength="40" type="text" id="name" placeholder="Seu nome aqui" required>
+      </label>
+    </div>
+    <div class="line-content">
+      <label for="email">Email
+        <input maxlength="50" type="text" id="email" placeholder="Seu email aqui" required>
+      </label>
+    </div>
+    <div class="line-content">
+      <label for="cpf">Cpf
+        <input maxlength="11" type="text" id="cpf" placeholder="Seu CPF aqui" required>
+      </label>
+    </div>
+    <div class="line-content">
+      <label for="adrees">Endereço
+        <input maxlength="200" type="text" id="adrees" placeholder="Seu endereço aqui" required>
+      </label>
+    </div>
+    <div class="line-content">
+      <label for="city">Cidade
+        <input maxlength="28" type="text" id="city" placeholder="Sua cidade aqui" required>
+      </label>
+    </div>
+    <div class="line-content">
+      <label for="state">Estado
+        <select name="Estados" id="state" required>
+          <option value="">MG</option>
+          <option value="">SP</option>
+          <option value="">ES</option>
+          <option value="">DF</option>
+          <option value="">CE</option>
+        </select>
+      </label>
+    </div>
+    <div class="line-contet">
+      <label for="home">Casa<input type="radio" id="home" name="tipo"></label>
+      <label for="ap">Apartamento<input type="radio" id="ap" name="tipo"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="text-area">
+      <legend>Resumo</legend>
+      <textarea name="resumo" id="resumo" maxlength="100" cols="50" rows="20"></textarea>
+    </div>
+    <div class="text-area">
+      <label for="cargo">cargo<input type="text" name="cargo" id="cargo" maxlength="50"></label> 
+    </div>
+    <div class="text-area">
+      <label for="cargo-description">Descrição do cargo<textarea name="cargo" id="cargo-description" maxlength="500" cols="30" rows="10"></textarea></label> 
+    </div>
+    <div class="text-area">
+      <label for="date">Data<input type="date" name="data" id="date"></label> 
+    </div>
+   
+  </fieldset>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
