@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:cornsilk;
+}
+label {
+  margin-bottom: 5px;
+}
+
+#title {
+  margin:0;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: darkcyan;
+  padding: 20px;
+}
+
+#title h1 {
+  margin:0;
+  color: antiquewhite;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: beige;
+  border: solid 2px rgb(61, 114, 96);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.line-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.text-area{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#resumo #cargo #cargo-description {
+  width: 100%;
+
+}
+.entrada {
+  width:100%;
+  border: solid 1px rgb(61, 114, 96);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.text {
+  margin-left:10%;
+}
+
+#enviar {
+  width:50%;
+  margin: 0 25%;
+  margin-bottom: 10px;
+  background-color: thistle;
+}
+
+
+#limpar {
+ width:50%;
+ margin: 0 25%;
+ margin-bottom: 100px;
+ background-color: thistle;
+}
