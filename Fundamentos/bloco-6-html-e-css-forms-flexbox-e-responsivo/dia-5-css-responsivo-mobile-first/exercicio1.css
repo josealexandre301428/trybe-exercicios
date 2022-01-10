@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  background-color:beige ;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px black;
+  
+}
+
+body {
+  margin: 0;
+  background-color: rgb(160, 180, 173);
+}
+
+article {
+  
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border: solid 1px black;
+  border-radius: 15px;
+  background-color: rgb(205, 224, 255);
+
+}
+
+h1 {
+  margin: 0;
+  font-size: x-large;
+
+}
+
+h2 {
+  text-align: center;
+  background-color: beige;
+  max-width: 50%;
+  margin: 50px auto;
+  border: solid 1px black;
+  border-radius: 10px;
+  
+}
+
+img {
+    max-width: 100%;
+}
+
+
+section {
+  max-width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+}
+
+figure {
+    margin: 0;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: beige;
+}
+
+figure img {
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: auto;
+}
+
+figcaption {
+  font-size: .8em;
+  background-color: rgb(173, 189, 216);
+  border: solid 1px black;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  margin: 10px auto;
+
+}
+
+@media only screen and (min-width: 600px){
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  article p {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  section {
+    justify-content: center;
+  }
+
+}
