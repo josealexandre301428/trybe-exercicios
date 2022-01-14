@@ -15,7 +15,7 @@
   return newArr;
 }*/
 
-function myFizzBuzz(num) {
+/*function myFizzBuzz(num) {
   if (typeof num !== 'number') return false;
   if (num % 3 === 0 && num % 5 === 0) return 'fizzbuzz';
   if (num % 3 === 0) return 'fizz';
@@ -24,4 +24,28 @@ function myFizzBuzz(num) {
 }
 
 
-module.exports = myFizzBuzz;
+module.exports = myFizzBuzz;*/
+
+/*const techList = (array, nome) => {
+  let lista = array;
+  array.sort();
+  let resultado = [];
+  let object = {};
+
+  if(lista.length == 0){
+    return 'Vazio!'}
+
+  for(let i = 0; i < lista.length; i += 1){
+    
+      object['name'] = nome;
+      object['tech'] = lista[i];
+
+      resultado.push(object);
+      object = {};
+      
+    }
+    
+  
+  return resultado;
+}
+module.exports = techList;*/
