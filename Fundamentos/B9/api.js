@@ -1,18 +1,16 @@
-const fetch = require('node-fetch');
+const fecthCripto = async(criptomoeda) => {
+const API_URL = `https://api.coincap.io/v2/assets/${criptomoeda}`;
 
-const fetchCoins = async () => {
-  const url = 'https://api.coincap.io/v2/assets';
-
-  const coins = await fetch(url)
-    .then((response) => response.json())
+const criptoCoins = fetch(API_URL)
+    .then(response => response.json())
     .then((data) => data.data)
-    .catch((error) => error.toString());
+    .catch((error) => error.toString());;
 
-  console.log(coins);
-}
+  return criptoCoins;
+};
 
-const setCoins = async () => {
-  const coins = await fetchCoins();
+const getCriptos = async (nome) => {
+  const coins = await fetchCripto(nome);
 
   const coinsList = document.getElementById('coins-list');
 
@@ -24,6 +22,22 @@ const setCoins = async () => {
 
     coinsList.appendChild(newLi);
   });
-}
+};
 
-window.onload = () => setCoins();
+const getList = () => {
+  Promise.all([
+    getCriptos('bitcoin'),
+    getCriptos('ethereum'),
+    getCriptos('ripple'),
+    getCriptos('bitcoin-cash'),
+    getCriptos('eos'),
+    getCriptos('stellar'),
+    getCriptos('litecoin'),
+    getCriptos('cardano'),
+    getCriptos('tether'),
+    getCriptos('iota'),
+
+  ])
+};
+
+window.onload = () => fecthCripto();
