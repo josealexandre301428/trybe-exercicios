@@ -3,17 +3,45 @@ body {
   background-color: rgb(231, 231, 129);
 }
 
-.pokedex {
+.main {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pokedex {
+  width: 300px;
+}
+
+.cardBody {
+  text-align: center;
+}
+
+.btn {
+color:white;
+width: 100px;
+margin: 0 auto;
+background-color: blue;
+border: 2px solid rgb(156, 156, 156);
+border-radius: 10px;
+}
+
+.btn:hover {
+  transition: 1s;
+  width: 120px;
 }
 
 .pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: aliceblue;
   border-radius: 15px;
-  border: 2px solid blue;
-  margin: 25px;
-  padding: 20px;
+  border: 2px solid rgb(156, 156, 156);
+  margin-top: 50px;
+  margin-bottom: 50px;
+
 }
 
 .pokemon h1 {
